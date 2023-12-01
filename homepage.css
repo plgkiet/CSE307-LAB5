@@ -1,0 +1,600 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    border: 1px springgreen;
+    background-color: white;
+    width: auto;
+    height: 102px;
+}
+
+div#logo {
+    float: left;
+    display: flex;
+}
+
+
+
+div#login {
+    text-align: right;
+    float: right;
+    position: relative;
+    top: 80px;
+    right: 10px;
+}
+
+div#login a:hover {
+    color: #007acc;
+}
+
+nav div#menu a:hover {
+    color: rgb(153, 150, 0);
+}
+
+nav {
+    clear: both;
+    border: 1px solid none;
+    width: auto;
+    height: 25px;
+}
+
+
+
+
+
+
+div#menu {
+    float: left;
+    left: 40px;
+    position: relative;
+
+}
+
+div#menu a {
+    color: red;
+    text-decoration: none;
+}
+
+div#form {
+    float: right;
+    text-align: right;
+}
+
+article {
+    display: table-row;
+}
+
+div#body {
+    background-color: gainsboro;
+    margin-top: 12px ;
+    box-shadow: 10px 10px 5px gray;
+}
+
+aside#left, aside#right, section {
+ display: table-cell;
+ vertical-align: top;
+ line-height: 20px;
+}
+
+aside#left {
+    width: 20%;
+}
+aside#right {
+    width: 20%;
+}
+
+
+ul#a a {
+    text-decoration: none;
+}
+
+ul#a a:hover {
+    color: #007acc;
+}
+
+ul#b a:hover {
+    color: #007acc;
+}
+
+#a {
+    list-style-type: square;
+}
+
+#left #subject #a{
+    display: table-cell;
+    border: 1px solid #007acc;
+    width: 20%;
+    height: 100px;
+    padding: 20px;
+    position: relative;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+#left #subject h3 {
+    display: table-cell;
+    background-color: #007acc;
+    color: white;
+    height: 10px;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+
+
+#left #subject {
+    padding: 5px;
+}
+
+#left #publisher h3 {
+    display: table-cell;
+    background-color: #007acc;
+    color: white;
+    height: 10px;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+#left #publisher #b {
+    display: table-cell;
+    border: 1px solid #007acc;
+    width: 20%;
+    height: 100px;
+    padding: 20px;
+    position: relative;  
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+
+}
+
+#left #publisher {
+    padding: 5px;
+}
+
+#b {
+    list-style-type: square;
+}
+
+ul#b a{
+    text-decoration: none;
+}
+
+
+/*
+section div#new h3 {
+    display: table-cell; 
+    border: 1px solid #007acc;
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 60%; 
+    padding: 10px;
+    position: relative;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+section #new{
+    padding: 5px;
+}
+*/
+section {
+    display: table-cell;
+    border: 1px solid black;
+    background-color: #C6E2FF;
+    margin-bottom: 100px;
+}
+
+section div#new h3 {
+    border: 1px solid #007acc;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    left: 130px;
+    top: 10px;
+    padding: 10px;
+    position: relative;
+    width: 500px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+section div.row ul#info {
+    list-style-type: disc;
+    line-height: 30px;
+}
+
+section div.row span#nxb, span#topic{
+    color: blue;
+    line-height: 40px;
+}
+ section div.col-md-10 #welcome #small1 {
+    font-size: small;
+ }
+
+ section div.col-md-10 #welcome #small2 {
+    font-size: small;
+ }
+
+ section div.col-md-10 #welcome #small2 #price {
+    font-size: medium;
+    color: red;
+ }
+
+
+#right div#bestseller h3 {
+    display: table-cell;
+    border: 1px solid #007acc;
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    width: 20%;
+    height: 10px;
+    padding: 10px;
+    position: relative;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+#right #bestseller {
+    padding: 5px;
+}
+
+
+.marquee {
+    height: 400px;
+    width: 20%;
+    display: table-cell;
+    border: 1px solid #007acc;
+    padding: 10px;
+    position: relative;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+#right #link h3 {
+    display: table-cell;
+    border: 1px solid #007acc;
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    width: 20%;
+    height: 10px;
+    padding: 10px;
+    position: relative;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+#right #link {
+    padding: 5px;
+}
+
+#right #link #select {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #007acc;
+    height: 50px;
+    width: 20%;
+    position: relative;
+    vertical-align: middle;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+#right #access {
+    padding: 5px;
+}
+
+#right #access h3 {
+    display: table-cell;
+    padding: 10px;
+    background-color: #007acc;
+    color: white;
+    vertical-align: center;
+    text-align: center;
+    width: 20%;
+    height: 10px;
+    position: relative;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+#right #access #accessinfo {
+    padding: 10px;
+    border: 1px solid #007acc;
+    color: red;
+    background-color: #C6E2FF;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+ 
+
+#footer {
+    padding: 10px;
+    background-color: #66CC00;
+    color: black;
+    width: 100%;
+    text-align: center;
+    align-items: centers;
+}
+
+section div#books {
+    display: flex;
+    display: table-row;
+}
+
+
+.product-box1 img.photo,
+.product-box2 img.photo,
+.product-box3 img.photo,
+.product-box4 img.photo,
+.product-box5 img.photo,
+.product-box6 img.photo {
+    margin-top: 10px;
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+section div#books div.product-box1 {
+    display: table-cell;
+    border: 1px solid #007acc;
+    background-color:#C6E2FF;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    vertical-align: middle; 
+    text-align: center;
+}
+
+section div#books div.product-box1 p.bill span.price {
+    color: red;
+}
+
+section div#books div.product-box1 a {
+    text-decoration: none;
+    color: black;
+}
+
+section div#books div.product-box1 img.photo {
+    box-shadow: 5px 5px 5px gray;
+    width: 200px;
+    height: 250px;
+    line-height: auto;
+}
+
+section div#books div.product-box1 img.buttonbuy {
+    width: 100px;
+    height: 40px;
+}
+
+/**/
+
+section div#books div.product-box2 {
+    display: table-cell;
+    border: 1px solid #007acc;
+    background-color:#C6E2FF;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;    vertical-align: middle; 
+    text-align: center;
+}
+
+section div#books div.product-box2 p.bill span.price {
+    color: red;
+}
+
+section div#books div.product-box2 a {
+    text-decoration: none;
+    color: black;
+}
+
+section div#books div.product-box2 img.photo {
+    box-shadow: 5px 5px 5px gray;
+    width: 200px;
+    height: 250px;
+    line-height: auto;
+}
+
+section div#books div.product-box2 img.buttonbuy {
+    width: 100px;
+    height: 40px;
+}
+
+/**/
+
+section div#books div.product-box3 {
+    display: table-cell;
+    border: 1px solid #007acc;
+    background-color:#C6E2FF;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;    vertical-align: middle; 
+    text-align: center;
+}
+
+section div#books div.product-box3 p.bill span.price {
+    color: red;
+}
+
+section div#books div.product-box3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section div#books div.product-box3 img.photo {
+    box-shadow: 5px 5px 5px gray;
+    width: 200px;
+    height: 250px;
+    line-height: auto;
+}
+
+section div#books div.product-box3 img.buttonbuy {
+    width: 100px;
+    height: 40px;
+}
+
+
+/**/
+
+section div#books div.product-box4 {
+    display: table-cell;
+    border: 1px solid #007acc;
+    background-color:#C6E2FF;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;    vertical-align: middle; 
+    text-align: center;
+}
+
+section div#books div.product-box4 p.bill span.price {
+    color: red;
+}
+
+section div#books div.product-box4 a {
+    text-decoration: none;
+    color: black;
+}
+
+section div#books div.product-box4 img.photo {
+    box-shadow: 5px 5px 5px gray;
+    width: 200px;
+    height: 250px;
+    line-height: auto;
+}
+
+section div#books div.product-box4 img.buttonbuy {
+    width: 100px;
+    height: 40px;
+}
+
+/**/
+
+section div#books div.product-box5 {
+    display: table-cell;
+    border: 1px solid #007acc;
+    background-color:#C6E2FF;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;    vertical-align: middle; 
+    text-align: center;
+}
+
+section div#books div.product-box5 p.bill span.price {
+    color: red;
+}
+
+section div#books div.product-box5 a {
+    text-decoration: none;
+    color: black;
+}
+
+section div#books div.product-box5 img.photo {
+    box-shadow: 5px 5px 5px gray;
+    width: 200px;
+    height: 250px;
+    line-height: auto;
+}
+
+section div#books div.product-box5 img.buttonbuy {
+    width: 100px;
+    height: 40px;
+}
+
+/**/
+
+section div#books div.product-box6 {
+    display: table-cell;
+    border: 1px solid #007acc;
+    background-color:#C6E2FF;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;    vertical-align: middle; 
+    text-align: center;
+}
+
+section div#books div.product-box6 p.bill span.price {
+    color: red;
+}
+
+section div#books div.product-box6 a {
+    text-decoration: none;
+    color: black;
+}
+
+section div#books div.product-box6 img.photo {
+    box-shadow: 5px 5px 5px gray;
+    width: 200px;
+    height: 250px;
+    line-height: auto;
+}
+
+section div#books div.product-box6 img.buttonbuy {
+    width: 100px;
+    height: 40px;
+}
+
+#books .top-row {
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid #007acc;
+    background-color: gainsboro;
+    padding: 15px;
+    vertical-align: middle;
+    align-items: center;
+}
+
+#books .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid #007acc;
+    background-color:gainsboro ;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+#books .top-row .product-box1,
+#books .top-row .product-box2,
+#books .top-row .product-box3 {
+    margin: 10px; 
+}
+
+#books .bottom-row .product-box4,
+#books .bottom-row .product-box5,
+#books .bottom-row .product-box6 {
+    margin: 10px; 
+}
+
+section form#registration {
+    display: flex;
+    display: table-cell;
+    background-color:#C6E2FF;
+}
+
+.photo:hover {
+    transform: scale(1.1);
+}
+
+.namebook:hover {
+    font-style:italic;
+}
+
+.buttonbuy:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+div#contact{
+    background-color: azure;
+    height: auto;
+    width:400px;
+    margin-left:400px;
+    padding:30px;
+}
+.buttonSubmit{
+    margin:40px;
+    
+}
+div.buttonSubmit button{
+    width:150px;
+}
+div#resultlist {
+    bottom:500px;
+    right:300px;
+    position: relative;
+    float:right;
+    
+    background-color: aqua;
+}

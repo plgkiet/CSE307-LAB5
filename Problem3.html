@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Pro3.css">
+    <script>
+        function saveContact(){
+            const name =document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const message = document.getElementById("message").value;
+            if(!name || !email || !message){
+                alert("Please fill all the information !");
+            }else{
+                document.getElementById("result").innerHTML = name + "<br>" + email + "<br>" + message;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="contact">
+        <h2><span>CONTACT US</span></h2>
+        <div class="input-group-mb-3 mt-3 col-sm-9">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" class="form-control" id="name">
+        </div>
+        <div class="input-group-mb-3  col-sm-9">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email">
+        </div>
+        <div class="input-group-mb-3 col-sm-9">
+            <label for="message" class="form-label">Message:</label>
+            <textarea type="text" class="form-control" id="message" rows="4"></textarea>
+        </div>
+        <div class="buttonSubmit">
+            <button class="btn btn-success " onclick="saveContact()"type="submit" id="submitbutton">Submit</button>
+        </div>
+    </div>
+    <div id="resultlist">
+        <p id="result"></p>
+    </div>
+</body>
+
+</html>

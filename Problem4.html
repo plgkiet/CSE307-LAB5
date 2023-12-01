@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Date-Time</title>
+        
+    </head>
+    
+    <body>
+        <p id="Time"></p>
+        <p><span style="font-weight: bold;">Now:</span> <span id="showTime" style="font-weight: bold;"></span></p>
+        <p><span style="color:blue;font-weight: bold;"">Today:</span><span style="color:blue" id="showFull"></span></p>
+    </body>
+    <script>
+        const now = new Date();
+        document.getElementById("Time").innerHTML =now.toDateString() + now.toTimeString();
+        document.getElementById("showTime").innerHTML = now.getHours() + ":" + now.getMinutes() +":" + now.getSeconds();
+        const dayName = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        document.getElementById("showFull").innerHTML = dayName[now.getDay()] +", " + retrieveMonth(now.getDate()) + ", " + now.getFullYear();
+        function retrieveMonth( i){
+                switch(i){
+                    case 1,21,31:
+                        return i + "st";
+                    case 2,22:
+                        return i +"nd";
+                    case 3,23:
+                        return i +"rd";
+                    default:
+                        return i + "th";
+                }
+        }
+    </script>
+    
+</html>
